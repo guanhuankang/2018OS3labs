@@ -1,0 +1,48 @@
+Time 0
+PCB No.3 is running. It's nice is 6, and it need 3 (time) to finish.
+Ready queue: 1(4) 2(2) 
+Finish queue: 
+----------------------------------------------------------------
+
+Time 1
+PCB No.3 is running. It's nice is 5, and it need 2 (time) to finish.
+Ready queue: 1(4) 2(2) 
+Finish queue: 
+----------------------------------------------------------------
+
+Time 2
+PCB No.1 is running. It's nice is 4, and it need 2 (time) to finish.
+Ready queue: 3(4) 2(2) 
+Finish queue: 
+----------------------------------------------------------------
+
+Time 3
+PCB No.3 is running. It's nice is 4, and it need 1 (time) to finish.
+Ready queue: 1(3) 2(2) 
+Finish queue: 
+----------------------------------------------------------------
+
+Time 4
+PCB No.1 is running. It's nice is 3, and it need 1 (time) to finish.
+Ready queue: 2(2) 
+Finish queue: 3 
+----------------------------------------------------------------
+
+Time 5
+PCB No.2 is running. It's nice is 2, and it need 2 (time) to finish.
+Ready queue: 
+Finish queue: 3 1 
+----------------------------------------------------------------
+
+Time 6
+PCB No.2 is running. It's nice is 1, and it need 1 (time) to finish.
+Ready queue: 
+Finish queue: 3 1 
+----------------------------------------------------------------
+
+Time 7
+Finish queue: 3 1 2 
+----------------------------------------------------------------
+
+
+Finish--A

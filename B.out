@@ -1,0 +1,51 @@
+1  | Run program 1 successfully! Run at Addr:0 Size:10
+------------------------------------------------------
+2  | Run program 2 successfully! Run at Addr:10 Size:20
+------------------------------------------------------
+3  | Run program 3 successfully! Run at Addr:30 Size:30
+------------------------------------------------------
+4  | Run program 4 successfully! Run at Addr:60 Size:40
+------------------------------------------------------
+5  | Fail to run Program 5. Memory Limit Error!
+------------------------------------------------------
+6  | 
+Block Num:0	Addr:0 Size:10 Status:1 Program:1
+Block Num:1	Addr:10 Size:20 Status:1 Program:2
+Block Num:2	Addr:30 Size:30 Status:1 Program:3
+Block Num:3	Addr:60 Size:40 Status:1 Program:4
+Block Num:4	Addr:100 Size:130972 Status:0 Program:0
+------------------------------------------------------
+7  | Name:2
+Free program 2 successfully!(Addr:10 Size:20)Helo
+
+------------------------------------------------------
+8  | 
+Block Num:0	Addr:0 Size:10 Status:1 Program:1
+Block Num:1	Addr:10 Size:20 Status:0 Program:2
+Block Num:2	Addr:30 Size:30 Status:1 Program:3
+Block Num:3	Addr:60 Size:40 Status:1 Program:4
+Block Num:4	Addr:100 Size:130972 Status:0 Program:0
+------------------------------------------------------
+9  | Name:1
+Free program 1 successfully!(Addr:0 Size:10)
+------------------------------------------------------
+10  | 
+Block Num:0	Addr:0 Size:30 Status:0 Program:1
+Block Num:1	Addr:30 Size:30 Status:1 Program:3
+Block Num:2	Addr:60 Size:40 Status:1 Program:4
+Block Num:3	Addr:100 Size:130972 Status:0 Program:0
+------------------------------------------------------
+11  | Name:3
+Free program 3 successfully!(Addr:30 Size:30)
+------------------------------------------------------
+12  | 
+Block Num:0	Addr:0 Size:60 Status:0 Program:1
+Block Num:1	Addr:60 Size:40 Status:1 Program:4
+Block Num:2	Addr:100 Size:130972 Status:0 Program:0
+------------------------------------------------------
+13  | Name:4
+Free program 4 successfully!(Addr:60 Size:40)
+------------------------------------------------------
+14  | 
+Block Num:0	Addr:0 Size:131072 Status:0 Program:1
+------------------------------------------------------

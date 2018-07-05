@@ -1,0 +1,83 @@
+1
+(allocate)  cylinder:0 track:0 record:0
+(allocate)  cylinder:0 track:0 record:1
+(allocate)  cylinder:0 track:0 record:2
+(allocate)  cylinder:0 track:0 record:3
+(allocate)  cylinder:0 track:1 record:0
+--------------------------------------------------
+2
+11111000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+--------------------------------------------------
+3
+(free)  cylinder:0 track:0 record:0
+--------------------------------------------------
+4
+01111000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+--------------------------------------------------
+5
+(allocate)  cylinder:0 track:0 record:0
+--------------------------------------------------
+6
+11111000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+--------------------------------------------------
+7
+(allocate)  cylinder:0 track:1 record:1
+(allocate)  cylinder:0 track:1 record:2
+(allocate)  cylinder:0 track:1 record:3
+(allocate)  cylinder:1 track:0 record:0
+(allocate)  cylinder:1 track:0 record:1
+(allocate)  cylinder:1 track:0 record:2
+(allocate)  cylinder:1 track:0 record:3
+(allocate)  cylinder:1 track:1 record:0
+(allocate)  cylinder:1 track:1 record:1
+(allocate)  cylinder:1 track:1 record:2
+--------------------------------------------------
+8
+11111111
+11111110
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+--------------------------------------------------
+9
+Memory Limit Error
+--------------------------------------------------
+10
+11111111
+11111110
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+--------------------------------------------------

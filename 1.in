@@ -1,0 +1,10 @@
+allocate 5
+query
+free 0 0 0
+query
+allocate 1
+query
+allocate 10
+query
+allocate 60
+query
